@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, red, blue);
+    font-family: Arial, "Helvetica Newe",Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    color: #333;
+}
+.subtitulo{
+    color: #666;
+    margin-bottom: 4vh;
+}
+.opçoes{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.cartao{
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s, trasnform 0.2s;
+}
+.cartao:hover{
+    border-color: #007bff;
+    transform: scale(1.03);
+
+}
+.cartao img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.cartão p{
+    margin-top: 1vh;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.VS{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+}
+
+#resultado{
+    margin-top: 3vh;
+    display: none;
+}
+#resultado h2{
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 2vh;
+}
